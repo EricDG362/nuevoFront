@@ -8,7 +8,7 @@ const ip_mac = '192.168.100.156'
 const httpLink = createHttpLink({
   //uri: Platform.OS === 'ios' ? 'http://localhost:4000/': 'http://10.0.2.2:4000/'
   //uri: Platform.OS === 'ios' ? 'http://localhost:4000/': `http://${ip_mac}:4000/`
-  uri:'https://vast-inlet-86204-a2f0a1aa0ae6.herokuapp.com'
+  uri:'https://warm-meadow-84602-8fcf13cf2c19.herokuapp.com'
 
 
 })
