@@ -1,0 +1,16 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node16",
+    "module": "Node16"  // Agrega esta línea
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
+
